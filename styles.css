@@ -1,0 +1,25 @@
+body {
+    background-color: indianred; /*other reds were too hard on the eyes*/
+    font-family: Calibri;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 150%;
+}
+
+.form {
+    position: absolute;
+    left: 20%;
+    flex-wrap: wrap;
+}
+
+.input {
+    position: relative;
+    left: 25%;
+    flex-grow: 1;
+}
+
