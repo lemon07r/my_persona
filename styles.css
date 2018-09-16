@@ -2,21 +2,21 @@ body {
     background-color: indianred; /*other reds were too hard on the eyes*/
     font-family: Calibri;
 }
-
-
+h1 {
+    font-size: 3vw;
+}
 .wrapper {
     display: flex;
     font-size: 150%;
     position: relative;
     left: 15%;
 }
-
-
-
 .input {
-
     justify-content: right;
     position: absolute;
     left: 120px;
 }
-
+#btn {
+    position: relative;
+    left: 15%;
+}
